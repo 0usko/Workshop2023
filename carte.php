@@ -17,10 +17,13 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <!-- script -->
+      <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+      <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
       <!-- basic -->
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1" user-scalable=no>
       <!-- mobile metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -47,6 +50,8 @@
       <link rel="stylesheet" href="css/owl.carousel.min.css">
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" type="text/css">
    </head>
    <body>
       <!-- header section start -->
@@ -95,21 +100,8 @@
       </div>
       <!-- header section end -->
       <!-- about section start -->
-      <div class="about_section layout_padding">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="about_taital_main">
-                     <h1 class="about_taital">À propos de nous</h1>
-                     <p class="about_text">Créé en 2007 par un groupe d'étudiant, Akwakwa® a voulu s'imposer dans le marché de l'aquarium en proposant à ses clients des services personnalisés et abordables, en respectant l'environnement et le bien être des poissons au maximum, 15ans plus tard, l'entreprise compte une grande équipe d'artisans spécialisé dans la frabrication d'aquarium pour répondre le mieux à tous types de projets...  </p>
-                     <div class="readmore_bt"><a href="#">En savoir plus</a></div>
-                  </div>
-               </div>
-               <div class="col-md-6 padding_right_0">
-                  <div><img src="images/about-img.png" class="about_img"></div>
-               </div>
-            </div>
-         </div>
+      <div id="requir">
+      <?php include 'carte.html';?>
       </div>
       <!-- about section end -->
       <!-- footer section start -->
@@ -149,6 +141,7 @@
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/jquery-3.0.0.min.js"></script>
       <script src="js/plugin.js"></script>
+      <script src="script.js"></script>
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
