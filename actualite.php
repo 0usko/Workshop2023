@@ -75,6 +75,9 @@
                         <li class="nav-item">
                            <a class="nav-link " href="commentaire.php">Commentaires</a>
                         </li>
+                        <li class="nav-item">
+                           <a class="nav-link " href="account.php">👤</a>
+                        </li>
                      </ul>
                   </div>
                </nav>
@@ -88,6 +91,7 @@
                      <li><a href="calendrier.php">Calendrier Poubelle</a></li>
                      <li><a href="actualite.php">Actualités</a></li>
                      <li><a href="commentaire.php">Commentaires</a></li>
+                     <li><a href="account.php">👤 Compte</a></li>
                   </ul>
                </div>
             </div>
@@ -97,10 +101,8 @@
       <!-- blog section start -->
       <div class="blog_section layout_padding margin_top_90">
          <div class="container">
-            <h1 class="blog_taital">Notre savoir-faire</h1>
-            <p class="blog_text">Dans la vidéo si dessous, vous verrez nos méthodes de fabrications d'aquariums, ainsi vous pourrez admirrer tout le soin et l'attention que nous portons à nos produits.</p>
-            <div class="play_icon_main">
-               <div class="play_icon"><a href="https://www.youtube.com/watch?v=KVW-OjaHwj4"><img src="images/play-icon.png"></a></div>
+            <div class="play_icon_main" style="-moz-border-radius: 5%; -webkit-border-radius: 5%;border-radius: 10%;overflow:hidden;position:relative;">
+            <iframe style=" height: 500px; width: 100%; border: none;" class="aaaaaaaaaaaaaaaaaaaaaa" src="https://www.montpellier.fr/3623-agenda-des-sorties-et-spectacles-montpellier.htm" frameborder="0" allowfullscreen></iframe>
             </div>
          </div>
       </div>
