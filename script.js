@@ -54,13 +54,80 @@ function init(){
             type: 'Feature',
             geometry: {
               type: 'Point',
+              coordinates: [3.898974, 43.602033]
+            },
+            properties: {
+              title: 'Toilette',
+              description: 'Public'
+            }
+          },
+          {
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
               coordinates: [3.904324, 43.600430]
             },
             properties: {
               title: 'Poubelle',
-              description: 'Vert, Jaune'
+              description: 'Vert, Jaune - (tri selectif)'
+            }
+          },
+          {
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
+              coordinates: [3.915857, 43.602322]
+            },
+            properties: {
+              title: 'Poubelle',
+              description: 'Vert, Jaune - (tri selectif)'
+            }
+          },
+          {
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
+              coordinates: [3.915857, 43.601322]
+            },
+            properties: {
+              title: 'Poubelle',
+              description: 'Vert'
+            }
+          },
+          {
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
+              coordinates: [3.913510, 43.600286]
+            },
+            properties: {
+              title: 'Poubelle',
+              description: 'Jaune'
+            }
+          },
+          {
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
+              coordinates: [3.904324, 43.600430]
+            },
+            properties: {
+              title: 'Poubelle',
+              description: 'Vert, Jaune - (tri selectif)'
+            }
+          },
+          {
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
+              coordinates: [3.906212, 43.603194]
+            },
+            properties: {
+              title: 'Poubelle',
+              description: 'Orange - (Biodéchets)'
             }
           }
+
         ]
       };
 const map = new mapboxgl.Map({
