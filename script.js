@@ -43,11 +43,22 @@ function init(){
             type: 'Feature',
             geometry: {
               type: 'Point',
-              coordinates: [-122.414, 37.776]
+              coordinates: [3.904175, 43.600673]
             },
             properties: {
-              title: 'Mapbox',
-              description: 'San Francisco, California'
+              title: 'Toilette',
+              description: 'Public'
+            }
+          },
+          {
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
+              coordinates: [3.904324, 43.600430]
+            },
+            properties: {
+              title: 'Poubelle',
+              description: 'Vert, Jaune'
             }
           }
         ]
@@ -80,7 +91,18 @@ map.addControl(
 for (const feature of geojson.features) {
     // create a HTML element for each feature
     const el = document.createElement('div');
-    el.className = 'marker';
+    if (feature.properties.title == 'Toilette')
+    {
+      el.className = 'toilet'
+    }else if (feature.properties.title == 'Poubelle')
+    {
+      el.className = 'bin';
+    } else if (feature.properties.title == 'marker')
+    {
+      el.className = 'marker';
+    }
+    
+
      
     // make a marker for each feature and add it to the map
     new mapboxgl.Marker(el)

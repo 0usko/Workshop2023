@@ -100,9 +100,23 @@
       </div>
       <!-- header section end -->
       <!-- about section start -->
+      <div id="ecart">
       <div id="requir">
       <?php include 'carte.html';?>
       </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+   </br>
       <!-- about section end -->
       <!-- footer section start -->
       <div class="footer_section layout_padding">
